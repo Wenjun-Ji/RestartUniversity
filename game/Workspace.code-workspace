@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "D:/VScodeProjects/C"
+		},
+		{
+			"path": "D:/VScodeProjects/C++"
+		},
+		{
+			"path": "D:/VScodeProjects/HTML"
+		},
+		{
+			"path": "D:/VScodeProjects/Java"
+		},
+		{
+			"path": "D:/VScodeProjects/python"
+		},
+		{
+			"path": "Study/LaTeX"
+		},
+		{
+			"path": "Study/Markdown"
+		},
+		{
+			"path": "Workspaces"
+		},
+		{
+			"path": "Corporation-exercise"
+		},
+		{
+			"path": "D:/VScodeProjects/30DaysOfPython"
+		},
+		{
+			"path": "D:/renpy-8.3.2-sdk/Nankai simulator"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML",
+		"files.exclude": {
+			"**/*.rpyc": true,
+			"**/*.rpa": true,
+			"**/*.rpymc": true,
+			"**/cache/": true
+		}
+	}
+}

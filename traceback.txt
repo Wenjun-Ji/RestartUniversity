@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/a_good_from_gaokao_to_kaixue.rpy", line 256, in script
+    python:
+  File "game/a_good_from_gaokao_to_kaixue.rpy", line 271, in <module>
+    new_plot = text_ai.invoke(scen_desc, plot_history, value_dict)
+IndexError: string index out of range
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/a_good_from_gaokao_to_kaixue.rpy", line 256, in script
+    python:
+  File "D:\Program\renpy-8.3.2-sdk\renpy\ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\Program\renpy-8.3.2-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/a_good_from_gaokao_to_kaixue.rpy", line 271, in <module>
+    new_plot = text_ai.invoke(scen_desc, plot_history, value_dict)
+  File "python-packages/chatgpt/__init__.py", line 130, in invoke
+  File "python-packages/chatgpt/__init__.py", line 146, in parse_plot
+IndexError: string index out of range
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.3.2.24090902
+1 1.0
+Thu Oct 24 15:12:47 2024
