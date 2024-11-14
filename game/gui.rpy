@@ -86,8 +86,8 @@ define gui.title_text_size = 75
 ## 标题和游戏菜单 #####################################################################
 
 ## 标题菜单和游戏菜单使用的图像。
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = Movie(size=(config.screen_width, config.screen_height), play="gui/正放.webm", loop=True)
+define gui.game_menu_background = Movie(size=(config.screen_width, config.screen_height), play="gui/倒放.webm", loop=True)
 
 
 ## 对话 ##########################################################################

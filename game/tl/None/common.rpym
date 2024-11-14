@@ -831,7 +831,7 @@ translate None strings:
 
     # renpy/common/00sync.rpy:378
     old "The sync belongs to a different game."
-    new "该同步属于另一款游戏。"
+    new "该���步属于另一款游戏。"
 
     # renpy/common/00sync.rpy:383
     old "The sync contains a file with an invalid name."
@@ -1087,7 +1087,7 @@ translate None strings:
 
     # renpy/common/00gltest.rpy:174
     old "Framerate"
-    new "帧率"
+    new "帧��"
 
     # renpy/common/00gltest.rpy:178
     old "Screen"

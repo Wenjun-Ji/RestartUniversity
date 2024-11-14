@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 90: expected statement.
-    renpy.say(None, history_text)  
-                                   ^
+File "game/a1_1_bad_from_gaokao_kaixue.rpy", line 80: invalid non-printable character U+00A0
+                renpy.say(p, value)  
+                                     ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sat Oct 19 13:29:48 2024
+Fri Nov  8 09:17:16 2024

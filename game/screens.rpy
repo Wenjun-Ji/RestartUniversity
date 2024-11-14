@@ -340,16 +340,12 @@ style navigation_button_text:
 
 screen main_menu():
 
-    ## 此语句可确保替换掉任何其他菜单屏幕。
     tag menu
-
     add gui.main_menu_background
 
-    ## 此空框可使标题菜单变暗。
     frame:
         style "main_menu_frame"
 
-    ## use 语句将其他的屏幕包含进此屏幕。标题屏幕的实际内容在导航屏幕中。
     use navigation
 
     if gui.show_name:
@@ -357,17 +353,26 @@ screen main_menu():
         vbox:
             style "main_menu_vbox"
 
-            text "[config.name!t]":
+            # 显示左边的标题部分“大学”，并设置偏向右侧的对齐
+            text "[my_title_left]":
                 style "main_menu_title"
+                xalign 1.0  # 根据需要调整 xalign 使其靠右
+
+            # 显示右边的标题部分“重开模拟器”，设置在合适的位置
+            text "[my_title_right]":
+                style "main_menu_title"
+                xalign 0.8  # 根据需要调整 xalign 位置
 
             text "[config.version]":
                 style "main_menu_version"
 
 
+
+
 style main_menu_frame is empty
 style main_menu_vbox is vbox
 style main_menu_text is gui_text
-style main_menu_title is main_menu_text
+
 style main_menu_version is main_menu_text
 
 style main_menu_frame:
@@ -387,7 +392,8 @@ style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
 
 style main_menu_title:
-    properties gui.text_properties("title")
+    color "#ffffffc2"  # 白色并带有透明度
+    size 180 # 设置字体大小（可根据需要调整）
 
 style main_menu_version:
     properties gui.text_properties("version")

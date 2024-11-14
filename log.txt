@@ -1,36 +1,36 @@
-2024-10-24 07:31:30 UTC
+2024-11-12 00:24:14 UTC
 Windows-10-10.0.22621
 Ren'Py 8.3.2.24090902
 
 Early init took 0.06s
 Loading error handling took 0.03s
-Loading script took 0.09s
+Loading script took 0.13s
 Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
-Running init code took 0.14s
-Loading analysis data took 0.02s
+Running init code took 0.13s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
+Reloading save slot metadata took 0.03s
 Index archives took 0.00s
-Dump and make backups took 0.04s
+Dump and make backups took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.04s
 DPI scale factor: 1.750000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
+Creating interface object took 0.37s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.09s
 Build styles took 0.00s
-Load screen analysis took 0.02s
+Load screen analysis took 0.03s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.06s
+Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
-Interface start took 0.30s
+Interface start took 0.36s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2560, 1600)
@@ -42,3 +42,24 @@ Version: b'4.6.0 NVIDIA 546.65'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2452, 1379) drawable=(2452, 1379)
 Maximum texture size: 4096x4096
+Sync error:
+Traceback (most recent call last):
+  File "renpy/common/00sync.rpy", line 201, in upload_content
+    renpy.fetch(url, method="PUT", data=content, timeout=15)
+  File "D:\Program\renpy-8.3.2-sdk\renpy\exports\fetchexports.py", line 280, in fetch
+    raise content # type: ignore
+renpy.exports.fetchexports.FetchError: HTTPSConnectionPool(host='sync.renpy.org', port=443): Max retries exceeded with url: /api/sync/v1/affaa1a73063d527e29a635967b2c9b16d32a416c5fd8fbe423d87a071d9f316?game=6c19aa12ee65d27c69ab65fb2f43a4c2154b81539212d355fa01ebaf1f6573a1 (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000000006e72ee0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')))
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
