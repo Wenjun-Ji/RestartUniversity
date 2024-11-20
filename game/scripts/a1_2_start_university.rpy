@@ -94,6 +94,8 @@ label a_train_journey:
 
 ### 第三幕 你来到大学的校门口，迎接你的是新的生活
 label a_registration:
+    stop music fadeout 1.0
+    play music "audio/轻柔平和.mp3" fadein 1.0 volume 0.5 loop
     # 显示场景
     scene bg university_gate  # 大学校门口
     # 定义角色

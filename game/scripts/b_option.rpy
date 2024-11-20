@@ -23,6 +23,8 @@ init python:
         return renpy.random.sample(all_accidents, 2)
 
 label b_option:
+    stop music fadeout 1.0
+    play music "audio/轻松欢快.mp3" fadein 1.0 volume 0.5 loop
     call accident_option
 
     call events_option

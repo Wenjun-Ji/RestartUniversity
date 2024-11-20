@@ -1,4 +1,6 @@
 label a_finalexam:
+    stop music fadeout 1.0
+    play music "audio/紧张.mp3" fadein 1.0 volume 0.5 loop
     scene bg study  # 学习场景背景
 
     python:

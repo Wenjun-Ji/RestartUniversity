@@ -203,6 +203,8 @@ label a_party_moderate:
     jump a_finalexam
 
 label a_dorm_quarrel:
+    stop music fadeout 1.0
+    play music "audio/quarrel.mp3" fadein 1.0 volume 0.5 loop
     scene bg dormitory  # 宿舍背景
 
     python:

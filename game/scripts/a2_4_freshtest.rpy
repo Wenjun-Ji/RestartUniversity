@@ -1,5 +1,7 @@
 # 大学场景
 label a_freshtest:
+    stop music fadeout 1.0
+    play music "audio/freshtest.mp3" fadein 1.0 volume 0.5 loop
     scene bg examhall  # 这个是大学校园背景
     python:
         scen_desc_1 = """

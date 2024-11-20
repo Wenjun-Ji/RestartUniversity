@@ -8,7 +8,9 @@
 # 高考考好的情况
 label a_gaokao_good:
     # 显示场景
-    scene bg home_living_room
+    stop music fadeout 1.0
+    play music "audio/轻松欢快.mp3" fadein 1.0 volume 0.5 loop
+    scene bg home_living_room  # 这个是家中客厅的背景，你可以根据实际场景设置
     
     # 定义角色
     # 在script.rpy中定义了角色，这里直接引用
@@ -44,9 +46,7 @@ label a_gaokao_good:
                     renpy.say(father, value)  # "爸爸" 的对话
                     renpy.hide("father")
                 elif key == "妈妈":
-                    renpy.show("mother", at_list=[player_right])
                     renpy.say(mother, value)  # "妈妈" 的对话
-                    renpy.hide("mother")
                 else:
                     continue
 

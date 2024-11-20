@@ -12,7 +12,7 @@ label b_event_low_energy:
         """
         
         new_plot = text_ai.invoke(scen_desc, plot_history, value_dict)
-        
+
         plot_history.extend([f"{key}：{value}" for d in new_plot for key, value in d.items()])
         
         for d in new_plot:
