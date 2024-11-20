@@ -129,7 +129,6 @@ image bg university = "images/background/university_resized.png"
 
 # 游戏开始
 label start:
-    jump b_option
     # 开场 - 黑色背景，白色文字，神秘的背景音乐
     scene black with fade
     play music "audio/intro/intro.WAV"  # 播放神秘的背景音乐
@@ -150,22 +149,26 @@ label start:
     
     # 场景 1：高考出分
     scene bg intro gaokao  # 显示高考出分的图片
+    with dissolve
     narrator "每个人都有那么一个时刻，手心冒汗，屏住呼吸，等着高考分数跳出来。"
     narrator "分数出来了……成败在此一刻定了。说实话，心里还是有点慌，不管好坏，总觉得命运这下锁定了。"
     narrator "我爸妈很激动，但我心里其实挺迷茫的，未来的路，还看不太清。"
 
     # 场景 2：录取结果出来
     scene bg intro luqu  # 录取成功的图片
+    with fade
     narrator "当‘录取成功’弹出来的时候，心里有种说不出的复杂。既兴奋，又有点恍惚，毕竟你知道，这只是个开始。"
     narrator "终于被录取了！其实当时看到的那一刻，有点儿发懵。这是我该高兴的时候，但怎么说呢，内心却感觉空空的。"
 
     # 场景 3：开学报道
     scene bg intro baodao # 开学报道的图片
+    with zoomin
     narrator "第一次站在大学校门口，行李箱在手，前方是你要生活四年的地方。"
     narrator "这是我的大学……校园比我想象中要大，真有点找不着北。大家都挺激动，但我心里既期待又有点紧张。"
 
     # 场景 4：宿舍生活
     scene bg intro sushe  # 宿舍生活的图片
+    with pixellate
     narrator "宿舍，是你接下来四年的‘家’，这里将装下你的欢笑与烦恼。"
     narrator "这就是我的宿舍啊，还挺乱的。大家都忙着收拾东西，我不知道该说什么，但希望能处好。毕竟我们要一起生活四年呢。"
 
