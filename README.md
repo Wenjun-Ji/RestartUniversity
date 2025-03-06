@@ -1,8 +1,8 @@
 # 大学重开模拟器
 
-![游戏封面](https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjY5NDU1NGE4M2E2NGFjM2E3NTc2NjUxMGQwZTRkYjFfcnRMM0RxOXNHTU14ZnN2SGZGVEpLNGpLd2RwY3FQZHVfVG9rZW46WjlROWJHTXdMb0laZkh4ZUFCUmNhRzZlbk5nXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA)
+![](https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjY5NDU1NGE4M2E2NGFjM2E3NTc2NjUxMGQwZTRkYjFfcnRMM0RxOXNHTU14ZnN2SGZGVEpLNGpLd2RwY3FQZHVfVG9rZW46WjlROWJHTXdMb0laZkh4ZUFCUmNhRzZlbk5nXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA)
 
-![游戏视频介绍](/src/Nankai_Simulator介绍视频.mp4)
+[演示视频链接](https://www.youtube.com/watch?v=8H0gUYCYXLU)
 
 ## 🎮 游戏简介
 
