@@ -1,0 +1,37 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scripts/a1_1_bad_from_gaokao_kaixue.rpy", line 23, in script
+    python:
+  File "game/scripts/a1_1_bad_from_gaokao_kaixue.rpy", line 39, in <module>
+    new_plot = text_ai_with_loading_screen(scen_desc, plot_history, value_dict)
+  File "game/script.rpy", line 151, in text_ai_with_loading_screen
+    new_plot = text_ai.invoke(scene_desc, plot_history, value_dict)
+ConnectionError: ('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/scripts/a1_1_bad_from_gaokao_kaixue.rpy", line 23, in script
+    python:
+  File "F:\Renpy\renpy-8.3.2-sdk\renpy\ast.py", line 821, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "F:\Renpy\renpy-8.3.2-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/scripts/a1_1_bad_from_gaokao_kaixue.rpy", line 39, in <module>
+    new_plot = text_ai_with_loading_screen(scen_desc, plot_history, value_dict)
+  File "game/script.rpy", line 151, in text_ai_with_loading_screen
+    new_plot = text_ai.invoke(scene_desc, plot_history, value_dict)
+  File "python-packages/chatgpt/__init__.py", line 132, in invoke
+  File "python-packages/chatgpt/__init__.py", line 27, in call_api
+  File "lib/python3.9/requests/api.py", line 115, in post
+  File "lib/python3.9/requests/api.py", line 59, in request
+  File "lib/python3.9/requests/sessions.py", line 589, in request
+  File "lib/python3.9/requests/sessions.py", line 703, in send
+  File "lib/python3.9/requests/adapters.py", line 501, in send
+ConnectionError: ('Connection aborted.', TimeoutError(10060, '由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。', None, 10060, None))
+
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.3.2.24090902
+大学重开模拟器 
+Thu Nov 21 20:24:25 2024

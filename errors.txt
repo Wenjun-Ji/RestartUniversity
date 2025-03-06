@@ -1,0 +1,30 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scripts/a1_1_bad_from_gaokao_kaixue.rpy", line 15: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/scripts/a1_1_bad_from_gaokao_kaixue.rpy", line 18: expected statement.
+    =======
+          ^
+
+File "game/scripts/a1_1_bad_from_gaokao_kaixue.rpy", line 20: expected statement.
+    >>>>>>> 2155ec98ba78f63fb4ecdc3bfc404a1d75107955
+                                                    ^
+
+File "game/scripts/a1_1_good_from_gaokao_to_kaixue.rpy", line 11: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/scripts/a1_1_good_from_gaokao_to_kaixue.rpy", line 14: expected statement.
+    =======
+          ^
+
+File "game/scripts/a1_1_good_from_gaokao_to_kaixue.rpy", line 18: expected statement.
+    >>>>>>> 2155ec98ba78f63fb4ecdc3bfc404a1d75107955
+                                                    ^
+
+Ren'Py Version: Ren'Py 8.3.2.24090902
+Wed Nov 20 16:47:57 2024
