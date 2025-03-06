@@ -1,11 +1,6 @@
 # 大学重开模拟器
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-    <img src="https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjY5NDU1NGE4M2E2NGFjM2E3NTc2NjUxMGQwZTRkYjFfcnRMM0RxOXNHTU14ZnN2SGZGVEpLNGpLd2RwY3FQZHVfVG9rZW46WjlROWJHTXdMb0laZkh4ZUFCUmNhRzZlbk5nXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA" alt="游戏封面" style="width: 100%; height: auto;">
-    <img src="https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=M2I4MzE2YTNmNmUyMjIyMGZhMmUxMTE5NzBmM2FhOTBfanlvQ1BNYnF2Rjl6ak53SkRuaFdRd0FRU2FtNGhMTEVfVG9rZW46SzRxSmJxRWlLb0VNa014b2NVUGNNYkc0blJ2XzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA" alt="游戏画面" style="width: 100%; height: auto;">
-    <img src="https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=OWY0OTFlNmJkMjIxZmZjMThjY2NlNTU0YjBjYjIxMGZfN0xXNDEyRFhBbld5aGl1SlduMGhTbUJYWjRpdlh4eHpfVG9rZW46U3ByUmJXT2Ztb3NRTGh4bUlRMmMwWnZGbm5iXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA" alt="图片3" style="width: 100%; height: auto;">
-    <img src="https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=MmVlNDVjN2M4M2UzMTg0YWI3MzUwYzE4ZTRmMTdlODlfRWhkdWJmQUhnNHVxN1VzaHRuN3ZiN3dIQmpZVzJpWEJfVG9rZW46QTR2N2J5Sld1b2E4R1d4S2hTZmN0RmNDbnlmXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA" alt="图片4" style="width: 100%; height: auto;">
-</div>
+![游戏封面](https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjY5NDU1NGE4M2E2NGFjM2E3NTc2NjUxMGQwZTRkYjFfcnRMM0RxOXNHTU14ZnN2SGZGVEpLNGpLd2RwY3FQZHVfVG9rZW46WjlROWJHTXdMb0laZkh4ZUFCUmNhRzZlbk5nXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA)
 
 
 
