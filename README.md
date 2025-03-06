@@ -1,29 +1,22 @@
 # 大学重开模拟器
 
-![游戏封面](https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjY5NDU1NGE4M2E2NGFjM2E3NTc2NjUxMGQwZTRkYjFfcnRMM0RxOXNHTU14ZnN2SGZGVEpLNGpLd2RwY3FQZHVfVG9rZW46WjlROWJHTXdMb0laZkh4ZUFCUmNhRzZlbk5nXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA)
-![游戏画面](https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=M2I4MzE2YTNmNmUyMjIyMGZhMmUxMTE5NzBmM2FhOTBfanlvQ1BNYnF2Rjl6ak53SkRuaFdRd0FRU2FtNGhMTEVfVG9rZW46SzRxSmJxRWlLb0VNa014b2NVUGNNYkc0blJ2XzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA)
-![](https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=OWY0OTFlNmJkMjIxZmZjMThjY2NlNTU0YjBjYjIxMGZfN0xXNDEyRFhBbld5aGl1SlduMGhTbUJYWjRpdlh4eHpfVG9rZW46U3ByUmJXT2Ztb3NRTGh4bUlRMmMwWnZGbm5iXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA)
-![](https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=MmVlNDVjN2M4M2UzMTg0YWI3MzUwYzE4ZTRmMTdlODlfRWhkdWJmQUhnNHVxN1VzaHRuN3ZiN3dIQmpZVzJpWEJfVG9rZW46QTR2N2J5Sld1b2E4R1d4S2hTZmN0RmNDbnlmXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA)
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+    <img src="https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjY5NDU1NGE4M2E2NGFjM2E3NTc2NjUxMGQwZTRkYjFfcnRMM0RxOXNHTU14ZnN2SGZGVEpLNGpLd2RwY3FQZHVfVG9rZW46WjlROWJHTXdMb0laZkh4ZUFCUmNhRzZlbk5nXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA" alt="游戏封面" style="width: 100%; height: auto;">
+    <img src="https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=M2I4MzE2YTNmNmUyMjIyMGZhMmUxMTE5NzBmM2FhOTBfanlvQ1BNYnF2Rjl6ak53SkRuaFdRd0FRU2FtNGhMTEVfVG9rZW46SzRxSmJxRWlLb0VNa014b2NVUGNNYkc0blJ2XzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA" alt="游戏画面" style="width: 100%; height: auto;">
+    <img src="https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=OWY0OTFlNmJkMjIxZmZjMThjY2NlNTU0YjBjYjIxMGZfN0xXNDEyRFhBbld5aGl1SlduMGhTbUJYWjRpdlh4eHpfVG9rZW46U3ByUmJXT2Ztb3NRTGh4bUlRMmMwWnZGbm5iXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA" alt="图片3" style="width: 100%; height: auto;">
+    <img src="https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=MmVlNDVjN2M4M2UzMTg0YWI3MzUwYzE4ZTRmMTdlODlfRWhkdWJmQUhnNHVxN1VzaHRuN3ZiN3dIQmpZVzJpWEJfVG9rZW46QTR2N2J5Sld1b2E4R1d4S2hTZmN0RmNDbnlmXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA" alt="图片4" style="width: 100%; height: auto;">
+</div>
+
+
 
 ## 🎮 游戏简介
+
+> "这不仅是一次游戏体验，更是一场关于成长的深度思考"
+> 
 一款结合模拟养成与AI叙事的大学人生重开游戏。通过智能动态剧情系统，体验真实的大学生活选择与成长轨迹。在学业、社交、经济等多重压力下，书写属于你的大学篇章。
 
 ## 🚀 运行方式
-**环境要求**：  
-- Ren'Py 7.4.11或更高版本  
-- Python 3.9+  
-
-**启动步骤**：  
-1. 下载并安装 [Ren'Py SDK](https://www.renpy.org/)
-2. 克隆本仓库到`renpy_projects`目录
-3. 启动Ren'Py启动器，选择"大学重开模拟器"项目
-4. 点击"启动项目"开始游戏
-
-**控制说明**：  
-- 鼠标点击进行选项选择  
-- `Ctrl` 跳过对话  
-- `S` 快速存档 / `L` 快速读档  
-- `空格` 继续对话
+下载renpy，并将项目下载到renpy存放示例项目的文件夹，通过reny运行
 
 ## ✨ 核心特色
 
@@ -62,6 +55,7 @@
 - 季节变换光影系统
 - 昼夜循环动态场景
 
+
 ### 👥 AI生成角色
 - 200+ 动态角色立绘
 - 个性化服装系统
@@ -83,6 +77,4 @@
 - 社会期待与自我实现冲突
 - 内卷/躺平现象机制化呈现
 
-[![游戏截图](Image)]()  <!-- 替换为截图链接 -->
 
-> "这不仅是一次游戏体验，更是一场关于成长的深度思考"  
