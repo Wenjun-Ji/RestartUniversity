@@ -2,7 +2,8 @@
 
 ![游戏封面](https://nankai.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjY5NDU1NGE4M2E2NGFjM2E3NTc2NjUxMGQwZTRkYjFfcnRMM0RxOXNHTU14ZnN2SGZGVEpLNGpLd2RwY3FQZHVfVG9rZW46WjlROWJHTXdMb0laZkh4ZUFCUmNhRzZlbk5nXzE3NDEyNTIzMzI6MTc0MTI1NTkzMl9WNA)
 
-[(/src/Nankai_Simulator介绍视频.mp4](https://nankai.feishu.cn/docx/L9qadAYjVogK0CxFR0OcB6MRnah#share-ZeLrdDUM4oGCiLxXhc4cegwEnDf))
+![(/src/Nankai_Simulator介绍视频.mp4](https://nankai.feishu.cn/docx/L9qadAYjVogK0CxFR0OcB6MRnah#share-ZeLrdDUM4oGCiLxXhc4cegwEnDf))
+
 
 ## 🎮 游戏简介
 
